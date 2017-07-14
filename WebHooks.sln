@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{929F44D0-A040-4DC3-A22F-4C5829C05D44}"
 EndProject
@@ -161,6 +161,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericReceivers.DependencyInjection", "samples\GenericReceivers.DependencyInjection\GenericReceivers.DependencyInjection.csproj", "{3EE37ECD-B24C-4096-950B-7C9D73B0E4BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesforceReceiver", "samples\SalesforceReceiver\SalesforceReceiver.csproj", "{3B7DEFC0-1032-448B-98B6-4B875A8E4285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.WebHooks.Common", "src\Microsoft.AspNetCore.WebHooks.Common\Microsoft.AspNetCore.WebHooks.Common.csproj", "{E6BDB285-8774-4B93-9A75-21467A1C8773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CE999310-708E-4B1E-AC80-4719D6AAFBE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.WebHooks.Custom", "src\Microsoft.AspNetCore.WebHooks.Custom\Microsoft.AspNetCore.WebHooks.Custom.csproj", "{FCB934B4-42EE-43A5-8CE2-EAED553FF099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -595,6 +601,18 @@ Global
 		{3B7DEFC0-1032-448B-98B6-4B875A8E4285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7DEFC0-1032-448B-98B6-4B875A8E4285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7DEFC0-1032-448B-98B6-4B875A8E4285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.CodeAnalysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.CodeAnalysis|Any CPU.Build.0 = Debug|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BDB285-8774-4B93-9A75-21467A1C8773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.CodeAnalysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.CodeAnalysis|Any CPU.Build.0 = Debug|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -671,6 +689,8 @@ Global
 		{88FB9535-BBC9-48FE-AC34-4C3E9A4073F3} = {E957C8D9-B4A0-488B-838F-BAB4DE080A76}
 		{3EE37ECD-B24C-4096-950B-7C9D73B0E4BB} = {E957C8D9-B4A0-488B-838F-BAB4DE080A76}
 		{3B7DEFC0-1032-448B-98B6-4B875A8E4285} = {E957C8D9-B4A0-488B-838F-BAB4DE080A76}
+		{E6BDB285-8774-4B93-9A75-21467A1C8773} = {CE999310-708E-4B1E-AC80-4719D6AAFBE8}
+		{FCB934B4-42EE-43A5-8CE2-EAED553FF099} = {CE999310-708E-4B1E-AC80-4719D6AAFBE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
